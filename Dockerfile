@@ -8,9 +8,5 @@ MAINTAINER Matteo De Paoli <depaoli@>
 #
 ADD FlaskAppServer /FlaskAppServer
 WORKDIR /FlaskAppServer
-EXPOSE 2105
-
-# To be ran inside the container to download a PyApp from GitHub or wherever
-RUN pip install git+https://github.com/depaoli/FlaskAppSample.git
 
 CMD [ "bash", "bin/run.sh" ]
