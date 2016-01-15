@@ -4,7 +4,7 @@ FROM python:2-onbuild
 MAINTAINER Matteo De Paoli <depaoli@>
 
 #
-# Flask App
+# Flask App Server
 #
 ADD FlaskAppServer /FlaskAppServer
 WORKDIR /FlaskAppServer
