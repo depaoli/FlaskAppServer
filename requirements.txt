@@ -3,10 +3,7 @@
 #
 
 # Flask is a microframework for Python based on Werkzeug, Jinja 2 and good intentions
-Flask>=0.10
-
-# Flask modules for Web Forms
-Flask-WTF>=0.9.3
+Flask>=0.11
 
 # WSGI + Supervisor
 Gunicorn>=18.0
